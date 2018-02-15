@@ -1,0 +1,62 @@
+{ "type" : "FeatureCollection", 
+"features" : [
+{ "type" : "Feature",
+"geometry" : {"type": "Point", "coordinates": [-84.390340,33.829752]},
+"properties": {"marker-color": "#F5A207"}
+}
+,{ "type" : "Feature",
+"geometry" : {"type": "Point", "coordinates": [-84.390611,33.829387]},
+"properties": {"marker-color": "#F5A207"}
+}
+,
+{ "type" : "Feature",
+"geometry" : {"type": "LineString", "coordinates": [[-84.390340,33.829752], [-84.390611,33.829387]]},
+"properties": {"marker-color": "#F5A207"}
+}
+,
+{ "type" : "Feature",
+"geometry" : {"type": "Point", "coordinates": [-84.390166,33.830072]},
+"properties": {"marker-color": "#000000"}
+}
+,{ "type" : "Feature",
+"geometry" : {"type": "Point", "coordinates": [-84.390103,33.830304]},
+"properties": {"marker-color": "#000000"}
+}
+,{ "type" : "Feature",
+"geometry" : {"type": "Point", "coordinates": [-84.390213,33.829967]},
+"properties": {"marker-color": "#000000"}
+}
+,{ "type" : "Feature",
+"geometry" : {"type": "Point", "coordinates": [-84.390110,33.830375]},
+"properties": {"marker-color": "#000000"}
+}
+,{ "type" : "Feature",
+"geometry" : {"type": "Point", "coordinates": [-84.390114,33.830218]},
+"properties": {"marker-color": "#000000"}
+}
+,{ "type" : "Feature",
+"geometry" : {"type": "Point", "coordinates": [-84.390663,33.828718]},
+"properties": {"marker-color": "#000000"}
+}
+,{ "type" : "Feature",
+"geometry" : {"type": "Point", "coordinates": [-84.390707,33.829136]},
+"properties": {"marker-color": "#000000"}
+}
+,{ "type" : "Feature",
+"geometry" : {"type": "Point", "coordinates": [-84.390713,33.829023]},
+"properties": {"marker-color": "#000000"}
+}
+,{ "type" : "Feature",
+"geometry" : {"type": "Point", "coordinates": [-84.390661,33.828652]},
+"properties": {"marker-color": "#000000"}
+}
+,{ "type" : "Feature",
+"geometry" : {"type": "Point", "coordinates": [-84.390649,33.829319]},
+"properties": {"marker-color": "#000000"}
+}
+,{ "type" : "Feature",
+"geometry" : {"type": "Point", "coordinates": [-84.390683,33.829235]},
+"properties": {"marker-color": "#000000"}
+}
+]
+}
