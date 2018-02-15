@@ -1,0 +1,87 @@
+{
+    "total_points_available": 100,
+    "tests": [
+        {
+            "output": {
+                "points_available": 10,
+                "points_awarded": null
+            },
+            "traceback": "Traceback (most recent call last):\n  File \"/home/vmuser_mjgewyun/AIResult.py\", line 26, in func_wrapper\n    ans = func(self)\n  File \"run.py\", line 435, in test_challenge_classifier\n    tree.fit(train_data, train_labels)\n  File \"/home/vmuser_mjgewyun/workspace/decision_trees_submission.py\", line 731, in fit\n    raise NotImplemented()\nTypeError: 'NotImplementedType' object is not callable\n",
+            "description": "(4). Test for challenge classifier. (10 points)"
+        },
+        {
+            "output": {
+                "points_available": 12,
+                "points_awarded": 12,
+                "autograder_comments": "1b results: Passed accuracy test. Passed precision test. Passed recall test. Passed confusion matrix test. "
+            },
+            "traceback": "",
+            "description": "(1b). Test for accuracy, precision, recall and confusion matrix. (12 points)"
+        },
+        {
+            "output": {
+                "points_available": 5,
+                "points_awarded": 5.0,
+                "autograder_comments": "1a results: Correct number of nodes for basic binary decision tree. Basic binary decision tree sufficiently accurate. "
+            },
+            "traceback": "",
+            "description": "(1a). Test for building a simple binary decision tree. (5 points)"
+        },
+        {
+            "output": {
+                "points_available": 20,
+                "points_awarded": 20,
+                "autograder_comments": "2a results: Satisfactory: Decision tree accuracy of 0.976679049913. "
+            },
+            "traceback": "",
+            "description": "(2b) Test for building decision trees automatically. 20 pts."
+        },
+        {
+            "output": {
+                "points_available": 6,
+                "points_awarded": 6,
+                "autograder_comments": "2a results: Passed gini_impurity test. Passed gini gain test. "
+            },
+            "traceback": "",
+            "description": "(2a). Test for gini impurity and gain. (6 points)"
+        },
+        {
+            "output": {
+                "points_available": 10,
+                "points_awarded": 10,
+                "autograder_comments": "2b results: Satisfactory: Generate k-folds accuracy of 0.973722627737. "
+            },
+            "traceback": "",
+            "description": "(2c). Test for generate_k_folds. 10 pts"
+        },
+        {
+            "output": {
+                "points_available": 30,
+                "points_awarded": 30,
+                "autograder_comments": "3 results: Satisfactory: Random forest accuracy of 0.79818420545. "
+            },
+            "traceback": "",
+            "description": "(3). Test for random forest classification. (30 points)"
+        },
+        {
+            "output": {
+                "points_available": 1,
+                "points_awarded": 1,
+                "autograder_comments": "Return Your Name: Name successfully returned\n",
+                "return_type_check": true
+            },
+            "traceback": "",
+            "description": "(6). Test the student printed their name (a non-empty string),(1 point)"
+        },
+        {
+            "output": {
+                "points_available": 6,
+                "points_awarded": 6,
+                "autograder_comments": "5 results: Vectorize 1: Passed with 0.089138 milliseconds for vectorization compared to 34.962904 for non-vectorization. Vectorize 2: Passed with 0.059716 milliseconds for vectorization compared to 0.423852 for non-vectorization. Vectorize 3: Passed with 20.204706 milliseconds for vectorization compared to 24.04592 for non-vectorization. "
+            },
+            "traceback": "",
+            "description": "(5). Test for vectorization. (6 points)"
+        }
+    ],
+    "total_points_awarded": 90.0
+}

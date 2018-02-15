@@ -1,0 +1,85 @@
+{
+    "total_points_available": 100,
+    "tests": [
+        {
+            "output": {
+                "points_available": 10,
+                "points_awarded": null
+            },
+            "traceback": "Traceback (most recent call last):\n  File \"/home/vmuser_hpbsaryj/AIResult.py\", line 26, in func_wrapper\n    ans = func(self)\n  File \"run.py\", line 435, in test_challenge_classifier\n    tree.fit(train_data, train_labels)\n  File \"/home/vmuser_hpbsaryj/workspace/decision_trees_submission.py\", line 718, in fit\n    raise NotImplemented()\nTypeError: 'NotImplementedType' object is not callable\n",
+            "description": "(4). Test for challenge classifier. (10 points)"
+        },
+        {
+            "output": {
+                "points_available": 10,
+                "points_awarded": null
+            },
+            "traceback": "Traceback (most recent call last):\n  File \"/home/vmuser_hpbsaryj/AIResult.py\", line 26, in func_wrapper\n    ans = func(self)\n  File \"run.py\", line 325, in test_k_folds\n    ten_folds = dt.generate_k_folds(dataset, 10)\n  File \"/home/vmuser_hpbsaryj/workspace/decision_trees_submission.py\", line 484, in generate_k_folds\n    for j in range(len(dataset[0][j])):\nUnboundLocalError: local variable 'j' referenced before assignment\n",
+            "description": "(2c). Test for generate_k_folds. 10 pts"
+        },
+        {
+            "output": {
+                "points_available": 30,
+                "points_awarded": null
+            },
+            "traceback": "Traceback (most recent call last):\n  File \"/home/vmuser_hpbsaryj/AIResult.py\", line 26, in func_wrapper\n    ans = func(self)\n  File \"run.py\", line 390, in test_random_forests\n    accuracies.append(self.precision_test(classifications, test_labels))\n  File \"run.py\", line 50, in precision_test\n    return float(sum([1 if classifier_output[i]==true_labels[i] else 0 for i in range(len(true_labels)) ])) / len(true_labels)\nTypeError: 'NoneType' object has no attribute '__getitem__'\n",
+            "description": "(3). Test for random forest classification. (30 points)"
+        },
+        {
+            "output": {
+                "points_available": 12,
+                "points_awarded": 12,
+                "autograder_comments": "1b results: Passed accuracy test. Passed precision test. Passed recall test. Passed confusion matrix test. "
+            },
+            "traceback": "",
+            "description": "(1b). Test for accuracy, precision, recall and confusion matrix. (12 points)"
+        },
+        {
+            "output": {
+                "points_available": 5,
+                "points_awarded": 5.0,
+                "autograder_comments": "1a results: Correct number of nodes for basic binary decision tree. Basic binary decision tree sufficiently accurate. "
+            },
+            "traceback": "",
+            "description": "(1a). Test for building a simple binary decision tree. (5 points)"
+        },
+        {
+            "output": {
+                "points_available": 20,
+                "points_awarded": 20,
+                "autograder_comments": "2a results: Satisfactory: Decision tree accuracy of 0.975229696766. "
+            },
+            "traceback": "",
+            "description": "(2b) Test for building decision trees automatically. 20 pts."
+        },
+        {
+            "output": {
+                "points_available": 6,
+                "points_awarded": 6,
+                "autograder_comments": "2a results: Passed gini_impurity test. Passed gini gain test. "
+            },
+            "traceback": "",
+            "description": "(2a). Test for gini impurity and gain. (6 points)"
+        },
+        {
+            "output": {
+                "points_available": 1,
+                "points_awarded": 1,
+                "autograder_comments": "Return Your Name: Name successfully returned\n",
+                "return_type_check": true
+            },
+            "traceback": "",
+            "description": "(6). Test the student printed their name (a non-empty string),(1 point)"
+        },
+        {
+            "output": {
+                "points_available": 6,
+                "points_awarded": 6,
+                "autograder_comments": "5 results: Vectorize 1: Passed with 0.238146 milliseconds for vectorization compared to 88.750648 for non-vectorization. Vectorize 2: Passed with 0.15889 milliseconds for vectorization compared to 1.090628 for non-vectorization. Vectorize 3: Passed with 48.798666 milliseconds for vectorization compared to 64.034076 for non-vectorization. "
+            },
+            "traceback": "",
+            "description": "(5). Test for vectorization. (6 points)"
+        }
+    ],
+    "total_points_awarded": 50.0
+}

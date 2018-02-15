@@ -1,0 +1,86 @@
+{
+    "total_points_available": 100,
+    "tests": [
+        {
+            "output": {
+                "points_available": 10,
+                "points_awarded": null
+            },
+            "traceback": "Traceback (most recent call last):\n  File \"/home/vmuser_khtgdoxn/AIResult.py\", line 26, in func_wrapper\n    ans = func(self)\n  File \"run.py\", line 435, in test_challenge_classifier\n    tree.fit(train_data, train_labels)\n  File \"/home/vmuser_khtgdoxn/workspace/decision_trees_submission.py\", line 720, in fit\n    raise NotImplemented()\nTypeError: 'NotImplementedType' object is not callable\n",
+            "description": "(4). Test for challenge classifier. (10 points)"
+        },
+        {
+            "output": {
+                "points_available": 10,
+                "points_awarded": null
+            },
+            "traceback": "Traceback (most recent call last):\n  File \"/home/vmuser_khtgdoxn/AIResult.py\", line 26, in func_wrapper\n    ans = func(self)\n  File \"run.py\", line 346, in test_k_folds\n    tree.fit( train_features, train_classes)\n  File \"/home/vmuser_khtgdoxn/workspace/decision_trees_submission.py\", line 321, in fit\n    self.root = self.__build_tree__(features, classes)\n  File \"/home/vmuser_khtgdoxn/workspace/decision_trees_submission.py\", line 338, in __build_tree__\n    if n == 0:\nValueError: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()\n",
+            "description": "(2c). Test for generate_k_folds. 10 pts"
+        },
+        {
+            "output": {
+                "points_available": 30,
+                "points_awarded": 15,
+                "autograder_comments": "3 results: Unsatisfactory: Random forest accuracy of 0.520417110037. "
+            },
+            "traceback": "Traceback (most recent call last):\n  File \"/home/vmuser_khtgdoxn/AIResult.py\", line 26, in func_wrapper\n    ans = func(self)\n  File \"run.py\", line 408, in test_random_forests\n    self.assertEqual(score, 30, \"Random Forest Classification\")\nAssertionError: Random Forest Classification\n",
+            "description": "(3). Test for random forest classification. (30 points)"
+        },
+        {
+            "output": {
+                "points_available": 12,
+                "points_awarded": 12,
+                "autograder_comments": "1b results: Passed accuracy test. Passed precision test. Passed recall test. Passed confusion matrix test. "
+            },
+            "traceback": "",
+            "description": "(1b). Test for accuracy, precision, recall and confusion matrix. (12 points)"
+        },
+        {
+            "output": {
+                "points_available": 5,
+                "points_awarded": 5.0,
+                "autograder_comments": "1a results: Correct number of nodes for basic binary decision tree. Basic binary decision tree sufficiently accurate. "
+            },
+            "traceback": "",
+            "description": "(1a). Test for building a simple binary decision tree. (5 points)"
+        },
+        {
+            "output": {
+                "points_available": 20,
+                "points_awarded": 20,
+                "autograder_comments": "2a results: Satisfactory: Decision tree accuracy of 0.978868986503. "
+            },
+            "traceback": "",
+            "description": "(2b) Test for building decision trees automatically. 20 pts."
+        },
+        {
+            "output": {
+                "points_available": 6,
+                "points_awarded": 6,
+                "autograder_comments": "2a results: Passed gini_impurity test. Passed gini gain test. "
+            },
+            "traceback": "",
+            "description": "(2a). Test for gini impurity and gain. (6 points)"
+        },
+        {
+            "output": {
+                "points_available": 1,
+                "points_awarded": 1,
+                "autograder_comments": "Return Your Name: Name successfully returned\n",
+                "return_type_check": true
+            },
+            "traceback": "",
+            "description": "(6). Test the student printed their name (a non-empty string),(1 point)"
+        },
+        {
+            "output": {
+                "points_available": 6,
+                "points_awarded": 6,
+                "autograder_comments": "5 results: Vectorize 1: Passed with 0.08997 milliseconds for vectorization compared to 33.975602 for non-vectorization. Vectorize 2: Passed with 0.060426 milliseconds for vectorization compared to 0.427234 for non-vectorization. Vectorize 3: Passed with 20.477488 milliseconds for vectorization compared to 24.337156 for non-vectorization. "
+            },
+            "traceback": "",
+            "description": "(5). Test for vectorization. (6 points)"
+        }
+    ],
+    "total_points_awarded": 65.0
+}
